@@ -41,7 +41,7 @@ To get a local copy up and running follow these simple example steps.
   - 
 
 ### Video
-  - [follow this link](https://www.loom.com/share/46acec2df1304484bad59e222768eb4b)
+  - [follow this link](https://www.loom.com/share/a654e0db239f4f1ea12822d4ea078f51)
 
 ## Author
 

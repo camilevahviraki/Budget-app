@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
   - run `rspec` to run the tests.
 
 ### Deployment
-  - 
+  - [Click here to see the live demo](https://limitless-anchorage-63328.herokuapp.com)
 
 ### Video
   - [follow this link](https://www.loom.com/share/a654e0db239f4f1ea12822d4ea078f51)

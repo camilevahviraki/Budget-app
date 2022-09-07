@@ -1,0 +1,22 @@
+<header class="categories-header">
+    <a href="/" ><img src="/images/arrow_back.png" alt="" class="arrow-back"/></a>
+    <h2 class="big-title">LOGIN</h2>
+</header>
+
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="field top-field">
+    <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder: 'email' %>
+  </div>
+
+  <div class="field">
+    <%= f.password_field :password, autocomplete: "current-password", placeholder: 'password' %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Log in" , class: 'login-btn'%>
+  </div>
+
+  <a href="<%= new_user_password_path%>" class="forgot-password">Forgot password?</a>
+<% end %>
+
+

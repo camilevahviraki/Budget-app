@@ -1,0 +1,16 @@
+<header class="categories-header">
+    <a href="/" ><img src="/images/arrow_back.png" alt="" class="arrow-back"/></a>
+    <h2 class="big-title">FORGOT PASSWORD?</h2>
+</header>
+
+<%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
+  <%= render "devise/shared/error_messages", resource: resource %>
+
+  <div class="field top-field">
+    <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder: 'email' %>
+  </div>
+
+  <div class="actions get-instructions">
+    <%= f.submit "Send me reset instructions", class: 'login-btn' %>
+  </div>
+<% end %>

@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# RECIPE
+# Budget App
 
 > The Budget app keeps track of all your tranzactions. It will allow you to save Categories and tranzactions,
 > keep track of what you have, create category, and add a tranzactions list based on what you have and who you are.
